@@ -1,0 +1,1048 @@
+::set {aaa_group.183.admin_capability_group} 12
+::set {aaa_group.183.default_capability_level} user
+::set {aaa_group.183.device} 20
+::set {aaa_group.183.managed_objects} {154 164}
+::set {aaa_group.183.managed_services} 1
+::set {aaa_group.183.managedb.aged.delete.high} never
+::set {aaa_group.183.managedb.aged.delete.low} never
+::set {aaa_group.183.managedb.aged.delete.medium} never
+::set {aaa_group.183.name} TestMSS
+::set {aaa_group.183.user_capability_group} 15
+
+::set {aaa_group.indices} {12 14 15 16 17 18 19 20 183}
+
+::set {aaa_user.184.attributes} 185
+::set {aaa_user.184.capability_level} user
+::set {aaa_user.184.device} 20
+::set {aaa_user.184.group} 183
+::set {aaa_user.184.htdigest} cf5a96933fbb730300122db11d7264d9
+::set {aaa_user.184.name} samtest
+::set {aaa_user.184.passwd} {{$2a$12$pO62ohAVu6mYuYScJLSpbuTtDMYJXZwDlEYEc5YE.DDxbDKG1mUEe}}
+
+::set {aaa_user.186.attributes} {187 188}
+::set {aaa_user.186.capability_level} admin
+::set {aaa_user.186.device} 20
+::set {aaa_user.186.group} 183
+::set {aaa_user.186.htdigest} 0c4ee34cf00e007d9f2b3612e647914c
+::set {aaa_user.186.name} mbaker
+::set {aaa_user.186.passwd} {{$2a$12$WB0Auvfw4Jwn1bR5UjUtje43Reqwj1dApd4.7/.3gU21uxX4wTtze}}
+
+::set {aaa_user.189.attributes} {190 191}
+::set {aaa_user.189.capability_level} admin
+::set {aaa_user.189.device} 20
+::set {aaa_user.189.group} 15
+::set {aaa_user.189.htdigest} c229eb0f797d159c0bb3fa1091ca9a9f
+::set {aaa_user.189.name} b-test
+::set {aaa_user.189.passwd} {{$2a$12$g0v35xi6ICLvfv1NOyOnN.TVbnEeWVhMlHGkEnnt0.dfsVFcqtgze}}
+
+::set {aaa_user.192.attributes} 193
+::set {aaa_user.192.capability_level} admin
+::set {aaa_user.192.device} 20
+::set {aaa_user.192.group} 14
+::set {aaa_user.192.htdigest} e9597a9761e31282567b07c628e681ed
+::set {aaa_user.192.name} neha
+::set {aaa_user.192.passwd} {{$2a$12$uDastsYsWMImew0ljdNir.adingPwnOGuuXCiME5GDBrw88NwKU32}}
+
+::set {aaa_user.indices} {19 184 186 189 192}
+
+::set {aaa_userattr.185.name} email
+::set {aaa_userattr.185.value} sdhar@arbor.net
+
+::set {aaa_userattr.187.name} realname
+::set {aaa_userattr.187.value} Mike
+
+::set {aaa_userattr.188.name} email
+::set {aaa_userattr.188.value} mbaker@arbor.net
+
+::set {aaa_userattr.190.name} realname
+::set {aaa_userattr.190.value} {{B Real}}
+
+::set {aaa_userattr.191.name} email
+::set {aaa_userattr.191.value} bholderbaum@arbor.net
+
+::set {aaa_userattr.193.name} menu
+::set {aaa_userattr.193.value} security.xml
+
+::set {aaa_userattr.indices} {185 187 188 190 191 193}
+
+::set {autoconfig.interface_rules.136.action_heuristics} 1
+::set {autoconfig.interface_rules.136.name} AutoClassRule
+::set {autoconfig.interface_rules.136.precedence} 20
+::set {autoconfig.interface_rules.indices} 136
+
+::set {blob.147.family} 2
+::set {blob.147.host_dos.enabled} 0
+::set {blob.147.intf_boundary} 9240578
+::set {blob.147.match} 11420
+::set {blob.147.misuse.dns.enabled} 1
+::set {blob.147.misuse.dns.high.pps} 100
+::set {blob.147.misuse.dns.threshold.pps} 50
+::set {blob.147.misuse.enabled} 1
+::set {blob.147.misuse.high.duration} 60
+::set {blob.147.misuse.icmp.enabled} 1
+::set {blob.147.misuse.icmp.high.pps} 100
+::set {blob.147.misuse.icmp.threshold.pps} 50
+::set {blob.147.misuse.ipfrag.enabled} 1
+::set {blob.147.misuse.ipfrag.high.pps} 100
+::set {blob.147.misuse.ipfrag.threshold.pps} 50
+::set {blob.147.misuse.ipnull.enabled} 1
+::set {blob.147.misuse.ipnull.high.pps} 100
+::set {blob.147.misuse.ipnull.threshold.pps} 50
+::set {blob.147.misuse.ippriv.enabled} 1
+::set {blob.147.misuse.ippriv.high.pps} 100
+::set {blob.147.misuse.ippriv.threshold.pps} 50
+::set {blob.147.misuse.tcpnull.enabled} 1
+::set {blob.147.misuse.tcpnull.high.pps} 100
+::set {blob.147.misuse.tcpnull.threshold.pps} 50
+::set {blob.147.misuse.tcprst.enabled} 1
+::set {blob.147.misuse.tcprst.high.pps} 100
+::set {blob.147.misuse.tcprst.threshold.pps} 50
+::set {blob.147.misuse.tcpsyn.enabled} 1
+::set {blob.147.misuse.tcpsyn.high.pps} 100
+::set {blob.147.misuse.tcpsyn.threshold.pps} 50
+::set {blob.147.misuse.total.enabled} 0
+::set {blob.147.misuse.udp.enabled} 1
+::set {blob.147.misuse.udp.high.pps} 100
+::set {blob.147.misuse.udp.threshold.pps} 50
+::set {blob.147.name} AS11420
+::set {blob.147.profiled.bandwidth.threshold} 1
+::set {blob.147.profiled.high.duration} 60
+::set {blob.147.profiled.high.incoming.bps} 50
+::set {blob.147.profiled.high.incoming.pps} 50
+::set {blob.147.profiled.high.outgoing.bps} 50
+::set {blob.147.profiled.high.outgoing.pps} 50
+::set {blob.147.profiled.incoming.enabled} 1
+::set {blob.147.profiled.minimum.incoming.bps} 10
+::set {blob.147.profiled.minimum.incoming.pps} 10
+::set {blob.147.profiled.minimum.outgoing.bps} 10
+::set {blob.147.profiled.minimum.outgoing.pps} 10
+::set {blob.147.profiled.packet_rate.threshold} 1
+::set {blob.147.profiled.protocol.threshold} 1
+::set {blob.147.profiled.snmp.enabled} 0
+::set {blob.147.profiled_network.enabled} 0
+::set {blob.147.tags} profile
+::set {blob.147.type} 4
+::set {blob.147.type_ui} 4
+
+::set {blob.148.family} 3
+::set {blob.148.host_dos.enabled} 0
+::set {blob.148.intf_boundary} 9043970
+::set {blob.148.match} 151.107.0.0/16
+::set {blob.148.misuse.dns.enabled} 1
+::set {blob.148.misuse.dns.high.pps} 100
+::set {blob.148.misuse.dns.threshold.pps} 50
+::set {blob.148.misuse.enabled} 1
+::set {blob.148.misuse.high.duration} 60
+::set {blob.148.misuse.icmp.enabled} 1
+::set {blob.148.misuse.icmp.high.pps} 100
+::set {blob.148.misuse.icmp.threshold.pps} 50
+::set {blob.148.misuse.ipfrag.enabled} 1
+::set {blob.148.misuse.ipfrag.high.pps} 100
+::set {blob.148.misuse.ipfrag.threshold.pps} 50
+::set {blob.148.misuse.ipnull.enabled} 1
+::set {blob.148.misuse.ipnull.high.pps} 100
+::set {blob.148.misuse.ipnull.threshold.pps} 50
+::set {blob.148.misuse.ippriv.enabled} 1
+::set {blob.148.misuse.ippriv.high.pps} 100
+::set {blob.148.misuse.ippriv.threshold.pps} 50
+::set {blob.148.misuse.tcpnull.enabled} 1
+::set {blob.148.misuse.tcpnull.high.pps} 100
+::set {blob.148.misuse.tcpnull.threshold.pps} 50
+::set {blob.148.misuse.tcprst.enabled} 1
+::set {blob.148.misuse.tcprst.high.pps} 100
+::set {blob.148.misuse.tcprst.threshold.pps} 50
+::set {blob.148.misuse.tcpsyn.enabled} 1
+::set {blob.148.misuse.tcpsyn.high.pps} 100
+::set {blob.148.misuse.tcpsyn.threshold.pps} 50
+::set {blob.148.misuse.total.enabled} 0
+::set {blob.148.misuse.udp.enabled} 1
+::set {blob.148.misuse.udp.high.pps} 100
+::set {blob.148.misuse.udp.threshold.pps} 50
+::set {blob.148.name} VAMCL
+::set {blob.148.profiled_network.enabled} 0
+::set {blob.148.tags} customer
+::set {blob.148.type} 2
+::set {blob.148.type_ui} 2
+
+::set {blob.149.family} 2
+::set {blob.149.host_dos.enabled} 0
+::set {blob.149.intf_boundary} {9306114 9437186}
+::set {blob.149.match} 7.29.0.0/16
+::set {blob.149.misuse.dns.enabled} 1
+::set {blob.149.misuse.dns.high.pps} 100
+::set {blob.149.misuse.dns.threshold.pps} 50
+::set {blob.149.misuse.enabled} 1
+::set {blob.149.misuse.high.duration} 60
+::set {blob.149.misuse.icmp.enabled} 1
+::set {blob.149.misuse.icmp.high.pps} 100
+::set {blob.149.misuse.icmp.threshold.pps} 50
+::set {blob.149.misuse.ipfrag.enabled} 1
+::set {blob.149.misuse.ipfrag.high.pps} 100
+::set {blob.149.misuse.ipfrag.threshold.pps} 50
+::set {blob.149.misuse.ipnull.enabled} 1
+::set {blob.149.misuse.ipnull.high.pps} 100
+::set {blob.149.misuse.ipnull.threshold.pps} 50
+::set {blob.149.misuse.ippriv.enabled} 1
+::set {blob.149.misuse.ippriv.high.pps} 100
+::set {blob.149.misuse.ippriv.threshold.pps} 50
+::set {blob.149.misuse.tcpnull.enabled} 1
+::set {blob.149.misuse.tcpnull.high.pps} 100
+::set {blob.149.misuse.tcpnull.threshold.pps} 50
+::set {blob.149.misuse.tcprst.enabled} 1
+::set {blob.149.misuse.tcprst.high.pps} 100
+::set {blob.149.misuse.tcprst.threshold.pps} 50
+::set {blob.149.misuse.tcpsyn.enabled} 1
+::set {blob.149.misuse.tcpsyn.high.pps} 100
+::set {blob.149.misuse.tcpsyn.threshold.pps} 50
+::set {blob.149.misuse.total.enabled} 0
+::set {blob.149.misuse.udp.enabled} 1
+::set {blob.149.misuse.udp.high.pps} 100
+::set {blob.149.misuse.udp.threshold.pps} 50
+::set {blob.149.name} AS14041
+::set {blob.149.profiled.bandwidth.threshold} 1
+::set {blob.149.profiled.high.duration} 60
+::set {blob.149.profiled.high.incoming.bps} 50
+::set {blob.149.profiled.high.incoming.pps} 50
+::set {blob.149.profiled.high.outgoing.bps} 50
+::set {blob.149.profiled.high.outgoing.pps} 50
+::set {blob.149.profiled.incoming.enabled} 1
+::set {blob.149.profiled.minimum.incoming.bps} 10
+::set {blob.149.profiled.minimum.incoming.pps} 10
+::set {blob.149.profiled.minimum.outgoing.bps} 10
+::set {blob.149.profiled.minimum.outgoing.pps} 10
+::set {blob.149.profiled.packet_rate.threshold} 1
+::set {blob.149.profiled.protocol.threshold} 1
+::set {blob.149.profiled.snmp.enabled} 0
+::set {blob.149.profiled_network.enabled} 0
+::set {blob.149.tags} profile
+::set {blob.149.type} 2
+::set {blob.149.type_ui} 2
+
+::set {blob.150.children} {165 166 167 168 169 170}
+::set {blob.150.family} 2
+::set {blob.150.host_dos.enabled} 0
+::set {blob.150.intf_boundary} 9306115
+::set {blob.150.match} 130.182.0.0/16
+::set {blob.150.misuse.dns.enabled} 1
+::set {blob.150.misuse.dns.high.pps} 100
+::set {blob.150.misuse.dns.threshold.pps} 50
+::set {blob.150.misuse.enabled} 1
+::set {blob.150.misuse.high.duration} 60
+::set {blob.150.misuse.icmp.enabled} 1
+::set {blob.150.misuse.icmp.high.pps} 100
+::set {blob.150.misuse.icmp.threshold.pps} 50
+::set {blob.150.misuse.ipfrag.enabled} 1
+::set {blob.150.misuse.ipfrag.high.pps} 100
+::set {blob.150.misuse.ipfrag.threshold.pps} 50
+::set {blob.150.misuse.ipnull.enabled} 1
+::set {blob.150.misuse.ipnull.high.pps} 100
+::set {blob.150.misuse.ipnull.threshold.pps} 50
+::set {blob.150.misuse.ippriv.enabled} 1
+::set {blob.150.misuse.ippriv.high.pps} 100
+::set {blob.150.misuse.ippriv.threshold.pps} 50
+::set {blob.150.misuse.tcpnull.enabled} 1
+::set {blob.150.misuse.tcpnull.high.pps} 100
+::set {blob.150.misuse.tcpnull.threshold.pps} 50
+::set {blob.150.misuse.tcprst.enabled} 1
+::set {blob.150.misuse.tcprst.high.pps} 100
+::set {blob.150.misuse.tcprst.threshold.pps} 50
+::set {blob.150.misuse.tcpsyn.enabled} 1
+::set {blob.150.misuse.tcpsyn.high.pps} 100
+::set {blob.150.misuse.tcpsyn.threshold.pps} 50
+::set {blob.150.misuse.total.enabled} 0
+::set {blob.150.misuse.udp.enabled} 1
+::set {blob.150.misuse.udp.high.pps} 100
+::set {blob.150.misuse.udp.threshold.pps} 50
+::set {blob.150.name} AS2152
+::set {blob.150.profiled_network.enabled} 0
+::set {blob.150.tags} profile
+::set {blob.150.type} 2
+::set {blob.150.type_ui} 2
+
+::set {blob.151.family} 3
+::set {blob.151.host_dos.enabled} 0
+::set {blob.151.intf_boundary} 9175042
+::set {blob.151.match} 216.175.102.0/24
+::set {blob.151.misuse.dns.enabled} 1
+::set {blob.151.misuse.dns.high.pps} 100
+::set {blob.151.misuse.dns.threshold.pps} 50
+::set {blob.151.misuse.enabled} 1
+::set {blob.151.misuse.high.duration} 60
+::set {blob.151.misuse.icmp.enabled} 1
+::set {blob.151.misuse.icmp.high.pps} 100
+::set {blob.151.misuse.icmp.threshold.pps} 50
+::set {blob.151.misuse.ipfrag.enabled} 1
+::set {blob.151.misuse.ipfrag.high.pps} 100
+::set {blob.151.misuse.ipfrag.threshold.pps} 50
+::set {blob.151.misuse.ipnull.enabled} 1
+::set {blob.151.misuse.ipnull.high.pps} 100
+::set {blob.151.misuse.ipnull.threshold.pps} 50
+::set {blob.151.misuse.ippriv.enabled} 1
+::set {blob.151.misuse.ippriv.high.pps} 100
+::set {blob.151.misuse.ippriv.threshold.pps} 50
+::set {blob.151.misuse.tcpnull.enabled} 1
+::set {blob.151.misuse.tcpnull.high.pps} 100
+::set {blob.151.misuse.tcpnull.threshold.pps} 50
+::set {blob.151.misuse.tcprst.enabled} 1
+::set {blob.151.misuse.tcprst.high.pps} 100
+::set {blob.151.misuse.tcprst.threshold.pps} 50
+::set {blob.151.misuse.tcpsyn.enabled} 1
+::set {blob.151.misuse.tcpsyn.high.pps} 100
+::set {blob.151.misuse.tcpsyn.threshold.pps} 50
+::set {blob.151.misuse.total.enabled} 0
+::set {blob.151.misuse.udp.enabled} 1
+::set {blob.151.misuse.udp.high.pps} 100
+::set {blob.151.misuse.udp.threshold.pps} 50
+::set {blob.151.name} {{Earthlink, Los Angeles}}
+::set {blob.151.profiled_network.enabled} 0
+::set {blob.151.tags} customer
+::set {blob.151.type} 2
+::set {blob.151.type_ui} 2
+
+::set {blob.152.family} 2
+::set {blob.152.host_dos.enabled} 0
+::set {blob.152.intf_boundary} 9437187
+::set {blob.152.match} 149.89.0.0/16
+::set {blob.152.misuse.dns.enabled} 1
+::set {blob.152.misuse.dns.high.pps} 100
+::set {blob.152.misuse.dns.threshold.pps} 50
+::set {blob.152.misuse.enabled} 1
+::set {blob.152.misuse.high.duration} 60
+::set {blob.152.misuse.icmp.enabled} 1
+::set {blob.152.misuse.icmp.high.pps} 100
+::set {blob.152.misuse.icmp.threshold.pps} 50
+::set {blob.152.misuse.ipfrag.enabled} 1
+::set {blob.152.misuse.ipfrag.high.pps} 100
+::set {blob.152.misuse.ipfrag.threshold.pps} 50
+::set {blob.152.misuse.ipnull.enabled} 1
+::set {blob.152.misuse.ipnull.high.pps} 100
+::set {blob.152.misuse.ipnull.threshold.pps} 50
+::set {blob.152.misuse.ippriv.enabled} 1
+::set {blob.152.misuse.ippriv.high.pps} 100
+::set {blob.152.misuse.ippriv.threshold.pps} 50
+::set {blob.152.misuse.tcpnull.enabled} 1
+::set {blob.152.misuse.tcpnull.high.pps} 100
+::set {blob.152.misuse.tcpnull.threshold.pps} 50
+::set {blob.152.misuse.tcprst.enabled} 1
+::set {blob.152.misuse.tcprst.high.pps} 100
+::set {blob.152.misuse.tcprst.threshold.pps} 50
+::set {blob.152.misuse.tcpsyn.enabled} 1
+::set {blob.152.misuse.tcpsyn.high.pps} 100
+::set {blob.152.misuse.tcpsyn.threshold.pps} 50
+::set {blob.152.misuse.total.enabled} 0
+::set {blob.152.misuse.udp.enabled} 1
+::set {blob.152.misuse.udp.high.pps} 100
+::set {blob.152.misuse.udp.threshold.pps} 50
+::set {blob.152.name} AS701
+::set {blob.152.profiled_network.enabled} 0
+::set {blob.152.tags} profile
+::set {blob.152.type} 2
+::set {blob.152.type_ui} 2
+
+::set {blob.153.family} 2
+::set {blob.153.host_dos.enabled} 0
+::set {blob.153.intf_boundary} 9371650
+::set {blob.153.match} 149.81.0.0/16
+::set {blob.153.misuse.dns.enabled} 1
+::set {blob.153.misuse.dns.high.pps} 100
+::set {blob.153.misuse.dns.threshold.pps} 50
+::set {blob.153.misuse.enabled} 1
+::set {blob.153.misuse.high.duration} 60
+::set {blob.153.misuse.icmp.enabled} 1
+::set {blob.153.misuse.icmp.high.pps} 100
+::set {blob.153.misuse.icmp.threshold.pps} 50
+::set {blob.153.misuse.ipfrag.enabled} 1
+::set {blob.153.misuse.ipfrag.high.pps} 100
+::set {blob.153.misuse.ipfrag.threshold.pps} 50
+::set {blob.153.misuse.ipnull.enabled} 1
+::set {blob.153.misuse.ipnull.high.pps} 100
+::set {blob.153.misuse.ipnull.threshold.pps} 50
+::set {blob.153.misuse.ippriv.enabled} 1
+::set {blob.153.misuse.ippriv.high.pps} 100
+::set {blob.153.misuse.ippriv.threshold.pps} 50
+::set {blob.153.misuse.tcpnull.enabled} 1
+::set {blob.153.misuse.tcpnull.high.pps} 100
+::set {blob.153.misuse.tcpnull.threshold.pps} 50
+::set {blob.153.misuse.tcprst.enabled} 1
+::set {blob.153.misuse.tcprst.high.pps} 100
+::set {blob.153.misuse.tcprst.threshold.pps} 50
+::set {blob.153.misuse.tcpsyn.enabled} 1
+::set {blob.153.misuse.tcpsyn.high.pps} 100
+::set {blob.153.misuse.tcpsyn.threshold.pps} 50
+::set {blob.153.misuse.total.enabled} 0
+::set {blob.153.misuse.udp.enabled} 1
+::set {blob.153.misuse.udp.high.pps} 100
+::set {blob.153.misuse.udp.threshold.pps} 50
+::set {blob.153.name} AS14989
+::set {blob.153.profiled_network.enabled} 0
+::set {blob.153.tags} profile
+::set {blob.153.type} 2
+::set {blob.153.type_ui} 2
+
+::set {blob.154.children} {171 172 173 174 175}
+::set {blob.154.family} 3
+::set {blob.154.host_dos.enabled} 0
+::set {blob.154.intf_boundary} 9371651
+::set {blob.154.match} 149.39.0.0/20
+::set {blob.154.misuse.dns.enabled} 1
+::set {blob.154.misuse.dns.high.pps} 100
+::set {blob.154.misuse.dns.threshold.pps} 50
+::set {blob.154.misuse.enabled} 1
+::set {blob.154.misuse.high.duration} 60
+::set {blob.154.misuse.icmp.enabled} 1
+::set {blob.154.misuse.icmp.high.pps} 100
+::set {blob.154.misuse.icmp.threshold.pps} 50
+::set {blob.154.misuse.ipfrag.enabled} 1
+::set {blob.154.misuse.ipfrag.high.pps} 100
+::set {blob.154.misuse.ipfrag.threshold.pps} 50
+::set {blob.154.misuse.ipnull.enabled} 1
+::set {blob.154.misuse.ipnull.high.pps} 100
+::set {blob.154.misuse.ipnull.threshold.pps} 50
+::set {blob.154.misuse.ippriv.enabled} 1
+::set {blob.154.misuse.ippriv.high.pps} 100
+::set {blob.154.misuse.ippriv.threshold.pps} 50
+::set {blob.154.misuse.tcpnull.enabled} 1
+::set {blob.154.misuse.tcpnull.high.pps} 100
+::set {blob.154.misuse.tcpnull.threshold.pps} 50
+::set {blob.154.misuse.tcprst.enabled} 1
+::set {blob.154.misuse.tcprst.high.pps} 100
+::set {blob.154.misuse.tcprst.threshold.pps} 50
+::set {blob.154.misuse.tcpsyn.enabled} 1
+::set {blob.154.misuse.tcpsyn.high.pps} 100
+::set {blob.154.misuse.tcpsyn.threshold.pps} 50
+::set {blob.154.misuse.total.enabled} 0
+::set {blob.154.misuse.udp.enabled} 1
+::set {blob.154.misuse.udp.high.pps} 100
+::set {blob.154.misuse.udp.threshold.pps} 50
+::set {blob.154.name} BBDO
+::set {blob.154.profiled_network.enabled} 0
+::set {blob.154.tags} customer
+::set {blob.154.type} 2
+::set {blob.154.type_ui} 2
+
+::set {blob.155.automitigation_enabled} 1
+::set {blob.155.automitigation_template} 2
+::set {blob.155.family} 3
+::set {blob.155.host_dos.enabled} 0
+::set {blob.155.intf_boundary} 9175043
+::set {blob.155.match} 32.174.0.0/18
+::set {blob.155.misuse.dns.enabled} 1
+::set {blob.155.misuse.dns.high.pps} 100
+::set {blob.155.misuse.dns.threshold.pps} 50
+::set {blob.155.misuse.enabled} 1
+::set {blob.155.misuse.high.duration} 60
+::set {blob.155.misuse.icmp.enabled} 1
+::set {blob.155.misuse.icmp.high.pps} 100
+::set {blob.155.misuse.icmp.threshold.pps} 50
+::set {blob.155.misuse.ipfrag.enabled} 1
+::set {blob.155.misuse.ipfrag.high.pps} 100
+::set {blob.155.misuse.ipfrag.threshold.pps} 50
+::set {blob.155.misuse.ipnull.enabled} 1
+::set {blob.155.misuse.ipnull.high.pps} 100
+::set {blob.155.misuse.ipnull.threshold.pps} 50
+::set {blob.155.misuse.ippriv.enabled} 1
+::set {blob.155.misuse.ippriv.high.pps} 100
+::set {blob.155.misuse.ippriv.threshold.pps} 50
+::set {blob.155.misuse.tcpnull.enabled} 1
+::set {blob.155.misuse.tcpnull.high.pps} 100
+::set {blob.155.misuse.tcpnull.threshold.pps} 50
+::set {blob.155.misuse.tcprst.enabled} 1
+::set {blob.155.misuse.tcprst.high.pps} 100
+::set {blob.155.misuse.tcprst.threshold.pps} 50
+::set {blob.155.misuse.tcpsyn.enabled} 1
+::set {blob.155.misuse.tcpsyn.high.pps} 100
+::set {blob.155.misuse.tcpsyn.threshold.pps} 50
+::set {blob.155.misuse.total.enabled} 0
+::set {blob.155.misuse.udp.enabled} 1
+::set {blob.155.misuse.udp.high.pps} 100
+::set {blob.155.misuse.udp.threshold.pps} 50
+::set {blob.155.mitigation.tms.scope} {192.168.1.0/24 192.168.2.0/24}
+::set {blob.155.mitigation_template} 1
+::set {blob.155.name} AT&T
+::set {blob.155.profiled.high.duration} 300
+::set {blob.155.profiled.incoming.enabled} 1
+::set {blob.155.profiled_network.enabled} 0
+::set {blob.155.tags} customer
+::set {blob.155.type} 2
+::set {blob.155.type_ui} 2
+
+::set {blob.156.automitigation_enabled} 1
+::set {blob.156.automitigation_template} 2
+::set {blob.156.description} {{testing bug's 59302}}
+::set {blob.156.family} 3
+::set {blob.156.host_dos.enabled} 0
+::set {blob.156.intf_boundary} 9371652
+::set {blob.156.match} 70.107.137.0/24
+::set {blob.156.misuse.dns.enabled} 1
+::set {blob.156.misuse.dns.high.pps} 100
+::set {blob.156.misuse.dns.threshold.pps} 50
+::set {blob.156.misuse.enabled} 1
+::set {blob.156.misuse.high.duration} 60
+::set {blob.156.misuse.icmp.enabled} 1
+::set {blob.156.misuse.icmp.high.pps} 100
+::set {blob.156.misuse.icmp.threshold.pps} 50
+::set {blob.156.misuse.ipfrag.enabled} 1
+::set {blob.156.misuse.ipfrag.high.pps} 100
+::set {blob.156.misuse.ipfrag.threshold.pps} 50
+::set {blob.156.misuse.ipnull.enabled} 1
+::set {blob.156.misuse.ipnull.high.pps} 100
+::set {blob.156.misuse.ipnull.threshold.pps} 50
+::set {blob.156.misuse.ippriv.enabled} 1
+::set {blob.156.misuse.ippriv.high.pps} 100
+::set {blob.156.misuse.ippriv.threshold.pps} 50
+::set {blob.156.misuse.tcpnull.enabled} 1
+::set {blob.156.misuse.tcpnull.high.pps} 100
+::set {blob.156.misuse.tcpnull.threshold.pps} 50
+::set {blob.156.misuse.tcprst.enabled} 1
+::set {blob.156.misuse.tcprst.high.pps} 100
+::set {blob.156.misuse.tcprst.threshold.pps} 50
+::set {blob.156.misuse.tcpsyn.enabled} 1
+::set {blob.156.misuse.tcpsyn.high.pps} 100
+::set {blob.156.misuse.tcpsyn.threshold.pps} 50
+::set {blob.156.misuse.total.enabled} 0
+::set {blob.156.misuse.udp.enabled} 1
+::set {blob.156.misuse.udp.high.pps} 100
+::set {blob.156.misuse.udp.threshold.pps} 50
+::set {blob.156.mitigation_template} 1
+::set {blob.156.name} Verizon
+::set {blob.156.profiled_network.enabled} 0
+::set {blob.156.tags} customer
+::set {blob.156.type} 2
+::set {blob.156.type_ui} 2
+
+::set {blob.157.family} 1
+::set {blob.157.host_dos.enabled} 0
+::set {blob.157.match} 14989
+::set {blob.157.name} peer14989
+::set {blob.157.profiled.bandwidth.threshold} 1
+::set {blob.157.profiled.high.duration} 60
+::set {blob.157.profiled.high.incoming.bps} 50
+::set {blob.157.profiled.high.incoming.pps} 50
+::set {blob.157.profiled.high.outgoing.bps} 50
+::set {blob.157.profiled.high.outgoing.pps} 50
+::set {blob.157.profiled.incoming.enabled} 1
+::set {blob.157.profiled.minimum.incoming.bps} 10
+::set {blob.157.profiled.minimum.incoming.pps} 10
+::set {blob.157.profiled.minimum.outgoing.bps} 10
+::set {blob.157.profiled.minimum.outgoing.pps} 10
+::set {blob.157.profiled.packet_rate.threshold} 1
+::set {blob.157.profiled.protocol.threshold} 1
+::set {blob.157.profiled.snmp.enabled} 0
+::set {blob.157.profiled_network.enabled} 0
+::set {blob.157.tags} peer
+::set {blob.157.type} 1
+::set {blob.157.type_ui} 1
+
+::set {blob.158.family} 1
+::set {blob.158.host_dos.enabled} 0
+::set {blob.158.match} 11420
+::set {blob.158.name} peer11420
+::set {blob.158.profiled_network.enabled} 0
+::set {blob.158.tags} peer
+::set {blob.158.type} 1
+::set {blob.158.type_ui} 1
+
+::set {blob.159.family} 1
+::set {blob.159.host_dos.enabled} 0
+::set {blob.159.match} 14041
+::set {blob.159.name} peer14041
+::set {blob.159.profiled_network.enabled} 0
+::set {blob.159.tags} peer
+::set {blob.159.type} 1
+::set {blob.159.type_ui} 1
+
+::set {blob.160.family} 1
+::set {blob.160.host_dos.enabled} 0
+::set {blob.160.match} 2152
+::set {blob.160.name} peer2152
+::set {blob.160.profiled_network.enabled} 0
+::set {blob.160.tags} peer
+::set {blob.160.type} 1
+::set {blob.160.type_ui} 1
+
+::set {blob.161.family} 1
+::set {blob.161.host_dos.enabled} 0
+::set {blob.161.match} 701
+::set {blob.161.name} peer701
+::set {blob.161.profiled_network.enabled} 0
+::set {blob.161.tags} peer
+::set {blob.161.type} 1
+::set {blob.161.type_ui} 1
+
+::set {blob.162.family} 1
+::set {blob.162.host_dos.enabled} 0
+::set {blob.162.match} 17112
+::set {blob.162.name} peer17112
+::set {blob.162.profiled_network.enabled} 0
+::set {blob.162.tags} peer
+::set {blob.162.type} 1
+::set {blob.162.type_ui} 1
+
+::set {blob.163.family} 1
+::set {blob.163.host_dos.enabled} 0
+::set {blob.163.match} 20057
+::set {blob.163.name} peer20057
+::set {blob.163.profiled_network.enabled} 0
+::set {blob.163.tags} peer
+::set {blob.163.type} 1
+::set {blob.163.type_ui} 1
+
+::set {blob.164.automitigation_enabled} 1
+::set {blob.164.automitigation_template} 2
+::set {blob.164.description} te'st
+::set {blob.164.family} 3
+::set {blob.164.host_dos.enabled} 0
+::set {blob.164.match} 70.107.137.0/28
+::set {blob.164.misuse.enabled} 1
+::set {blob.164.misuse.high.duration} 300
+::set {blob.164.misuse.icmp.enabled} 0
+::set {blob.164.misuse.ipfrag.enabled} 0
+::set {blob.164.misuse.ipnull.enabled} 0
+::set {blob.164.misuse.ippriv.enabled} 0
+::set {blob.164.misuse.tcpnull.enabled} 0
+::set {blob.164.misuse.tcprst.enabled} 0
+::set {blob.164.misuse.tcpsyn.enabled} 0
+::set {blob.164.misuse.total.enabled} 1
+::set {blob.164.misuse.total.high.bps} 10000
+::set {blob.164.misuse.total.high.pps} 9999
+::set {blob.164.misuse.total.threshold.bps} 1000
+::set {blob.164.misuse.total.threshold.pps} 999
+::set {blob.164.mitigation_template} 1
+::set {blob.164.name} custMisuse
+::set {blob.164.profiled_network.enabled} 0
+::set {blob.164.tags} customer
+::set {blob.164.type} 2
+::set {blob.164.type_ui} 2
+
+::set {blob.165.family} 2
+::set {blob.165.host_dos.enabled} 0
+::set {blob.165.match} 130.182.0.0/20
+::set {blob.165.name} {{AS2152 - ChildA}}
+::set {blob.165.parent} 150
+::set {blob.165.profiled_network.enabled} 0
+::set {blob.165.tags} profile
+::set {blob.165.type} 2
+::set {blob.165.type_ui} 2
+
+::set {blob.166.family} 2
+::set {blob.166.host_dos.enabled} 0
+::set {blob.166.match} 130.182.16.0/21
+::set {blob.166.name} {{AS2152 - ChildB}}
+::set {blob.166.parent} 150
+::set {blob.166.profiled_network.enabled} 0
+::set {blob.166.tags} profile
+::set {blob.166.type} 2
+::set {blob.166.type_ui} 2
+
+::set {blob.167.family} 2
+::set {blob.167.host_dos.enabled} 0
+::set {blob.167.match} 130.182.24.0/22
+::set {blob.167.name} {{AS2152 - ChildC}}
+::set {blob.167.parent} 150
+::set {blob.167.profiled_network.enabled} 0
+::set {blob.167.tags} profile
+::set {blob.167.type} 2
+::set {blob.167.type_ui} 2
+
+::set {blob.168.family} 2
+::set {blob.168.host_dos.enabled} 0
+::set {blob.168.match} 130.182.28.0/23
+::set {blob.168.name} {{AS2152 - ChildD}}
+::set {blob.168.parent} 150
+::set {blob.168.profiled_network.enabled} 0
+::set {blob.168.tags} profile
+::set {blob.168.type} 2
+::set {blob.168.type_ui} 2
+
+::set {blob.169.family} 2
+::set {blob.169.host_dos.enabled} 0
+::set {blob.169.match} 130.182.30.0/24
+::set {blob.169.name} {{AS2152 - ChildE}}
+::set {blob.169.parent} 150
+::set {blob.169.profiled_network.enabled} 0
+::set {blob.169.tags} profile
+::set {blob.169.type} 2
+::set {blob.169.type_ui} 2
+
+::set {blob.170.family} 2
+::set {blob.170.host_dos.enabled} 0
+::set {blob.170.match} 130.182.31.0/24
+::set {blob.170.name} {{AS2152 - ChildF}}
+::set {blob.170.parent} 150
+::set {blob.170.profiled_network.enabled} 0
+::set {blob.170.tags} profile
+::set {blob.170.type} 2
+::set {blob.170.type_ui} 2
+
+::set {blob.171.family} 3
+::set {blob.171.host_dos.enabled} 0
+::set {blob.171.match} 149.39.0.0/21
+::set {blob.171.name} {{BBDO - ChildA}}
+::set {blob.171.parent} 154
+::set {blob.171.profiled_network.enabled} 0
+::set {blob.171.tags} customer
+::set {blob.171.type} 2
+::set {blob.171.type_ui} 2
+
+::set {blob.172.family} 3
+::set {blob.172.host_dos.enabled} 0
+::set {blob.172.match} 149.39.8.0/22
+::set {blob.172.name} {{BBDO - ChildB}}
+::set {blob.172.parent} 154
+::set {blob.172.profiled_network.enabled} 0
+::set {blob.172.tags} customer
+::set {blob.172.type} 2
+::set {blob.172.type_ui} 2
+
+::set {blob.173.family} 3
+::set {blob.173.host_dos.enabled} 0
+::set {blob.173.match} 149.39.12.0/23
+::set {blob.173.name} {{BBDO - ChildC}}
+::set {blob.173.parent} 154
+::set {blob.173.profiled_network.enabled} 0
+::set {blob.173.tags} customer
+::set {blob.173.type} 2
+::set {blob.173.type_ui} 2
+
+::set {blob.174.family} 3
+::set {blob.174.host_dos.enabled} 0
+::set {blob.174.match} 149.39.14.0/24
+::set {blob.174.name} {{BBDO - ChildD}}
+::set {blob.174.parent} 154
+::set {blob.174.profiled_network.enabled} 0
+::set {blob.174.tags} customer
+::set {blob.174.type} 2
+::set {blob.174.type_ui} 2
+
+::set {blob.175.family} 3
+::set {blob.175.host_dos.enabled} 0
+::set {blob.175.match} 149.39.15.0/24
+::set {blob.175.name} {{BBDO - ChildE}}
+::set {blob.175.parent} 154
+::set {blob.175.profiled_network.enabled} 0
+::set {blob.175.tags} customer
+::set {blob.175.type} 2
+::set {blob.175.type_ui} 2
+
+::set {blob.180.family} 2
+::set {blob.180.fcap_filter} proto+tcp+AND+%28%28port+80+AND+%28host+61.102.223.3+OR+host+140.136.148.42+OR+host+140.136.202.49+OR+host+68.70.70.244%29%29+OR+%28port+443+AND+%28host+67.141.114.68%29%29%29
+::set {blob.180.host_dos.enabled} 0
+::set {blob.180.mitigation_template} 1
+::set {blob.180.name} flowFilter
+::set {blob.180.profiled.incoming.enabled} 0
+::set {blob.180.profiled_network.country.enabled} 0
+::set {blob.180.profiled_network.enabled} 0
+::set {blob.180.tags} profile
+
+::set {blob.indices} {27 28 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 180}
+
+::set {collector.115.flowif_indices} eth0
+::set {collector.115.full_model} PI-5500
+::set {collector.115.ip} 10.9.252.55
+::set {collector.115.license_key} NAD64-BAKHM-KJMVS-16GH4-B738P-NP84E-0KSC9-PSAW2-PWNVA
+::set {collector.115.model} 5500
+::set {collector.115.name} firefly
+::set {collector.115.tms_manager_flag} 1
+::set {collector.115.type} pi
+
+::set {collector.121.flowif_indices} eth0
+::set {collector.121.full_model} CP-5500-15
+::set {collector.121.ip} 10.9.252.59
+::set {collector.121.license_key} JZXHA-9CQ6V-62D20-2JKE7-96558-H1GRC-1ASR4-650CX-8YNFE
+::set {collector.121.model} 5500
+::set {collector.121.name} dusty
+::set {collector.121.routers} {ar1.chi ar1.lax ar1.nyc br1.chi br1.lax br1.nyc cr1.chi cr1.lax cr1.nyc}
+::set {collector.121.tms_manager_flag} 1
+::set {collector.121.type} cp
+
+::set {collector.122.dpi.deployment_type} offramp
+::set {collector.122.dpi.fail_open} 1
+::set {collector.122.dpi.nexthop} 172.19.40.41
+::set {collector.122.dpi.offramp_method} 0
+::set {collector.122.dpi.peer_from_collectors} 1
+::set {collector.122.dpi.physical_ports} {123 124 125 126 127 128 129 130}
+::set {collector.122.full_model} TMS-4000
+::set {collector.122.ip} 10.9.252.9
+::set {collector.122.license_key} 32YH7-C5ZMZ-5CBKY-7F156-9PBCD-G0M25-Q0G0K-KMZ4E-CBG7P
+::set {collector.122.manager} 121
+::set {collector.122.model} 4000
+::set {collector.122.name} burnout
+::set {collector.122.nblades} 1
+::set {collector.122.type} tms
+
+::set {collector.indices} {115 121 122}
+
+::set {collector.leader} 115
+
+::set {collector.zone_secret} Quafina
+
+::set {config.version} {{$Id: sp.conf,v 1.53 2013/08/30 20:48:40 firefly.admin Exp $}}
+
+::set {failover.leader} 116
+
+::set {failover.notification} 137
+
+::set {failover.timeout} 5
+
+::set {fingerprint.share.server.ip} fs-testlab.tb.arbor.net
+
+::set {managedb.aged.delete.high} {{1 month}}
+::set {managedb.aged.delete.low} {{1 month}}
+::set {managedb.aged.delete.medium} {{1 month}}
+
+::set {mitigation_group.3.type} appliance
+
+::set {mitigation_template.1.aif_http_regex_flist.level} 0
+::set {mitigation_template.1.http_malformed.botnet_level} 0
+::set {mitigation_template.1.ssl.max_cipher_suites} 100
+::set {mitigation_template.1.ssl.max_early_close} 25
+::set {mitigation_template.1.ssl.max_extensions} 10
+::set {mitigation_template.1.ssl.max_pend_secs} 30
+::set {mitigation_template.1.ssl.min_pend_secs} 15
+::set {mitigation_template.1.syn_auth.locked} 0
+
+::set {mitigation_template.176.aif_http_regex_flist.level} 0
+::set {mitigation_template.176.device_group} 3
+::set {mitigation_template.176.dns_filter_list_and} 0
+::set {mitigation_template.176.dns_regex_and} 0
+::set {mitigation_template.176.dns_regex_pass} 0
+::set {mitigation_template.176.dns_regex_uri.locked} 0
+::set {mitigation_template.176.flex_zombie_bps_1} 1
+::set {mitigation_template.176.flex_zombie_filter_1} {{proto udp}}
+::set {mitigation_template.176.flex_zombie_pps_1} 1
+::set {mitigation_template.176.geoip_flist.allow} 0
+::set {mitigation_template.176.http_header_regex_and} 0
+::set {mitigation_template.176.http_header_regex_pass} 0
+::set {mitigation_template.176.http_header_regex_uri.locked} 0
+::set {mitigation_template.176.http_malformed.botnet_level} 0
+::set {mitigation_template.176.http_malformed.locked} 0
+::set {mitigation_template.176.ip_version} 4
+::set {mitigation_template.176.name} {{AT&T UDP to proxy}}
+::set {mitigation_template.176.payload_regex_pass} 0
+::set {mitigation_template.176.payload_regex_tcp_ports.locked} 0
+::set {mitigation_template.176.payload_regex_udp_ports.locked} 0
+::set {mitigation_template.176.payload_regex_uri.locked} 0
+::set {mitigation_template.176.sip_malformed.locked} 0
+::set {mitigation_template.176.ssl.clients_can_alert} 1
+::set {mitigation_template.176.ssl.max_cipher_suites} 100
+::set {mitigation_template.176.ssl.max_early_close} 25
+::set {mitigation_template.176.ssl.max_extensions} 10
+::set {mitigation_template.176.ssl.max_pend_secs} 30
+::set {mitigation_template.176.ssl.min_pend_secs} 15
+::set {mitigation_template.176.url_filter_list_and} 0
+::set {mitigation_template.176.zombie.bps} 100
+::set {mitigation_template.176.zombie.enabled} 1
+::set {mitigation_template.176.zombie.locked} 1
+::set {mitigation_template.176.zombie.pps} 100
+
+::set {mitigation_template.182.aif_http_regex_flist.level} 0
+::set {mitigation_template.182.device_group} 3
+::set {mitigation_template.182.dns_filter_list_and} 0
+::set {mitigation_template.182.dns_regex_and} 0
+::set {mitigation_template.182.dns_regex_pass} 0
+::set {mitigation_template.182.dns_regex_uri.locked} 0
+::set {mitigation_template.182.filter} drop%20%21%20%28%28proto%20icmp%29%20or%20%28proto%20tcp%29%29%0Adrop%20proto%20tcp%20and%20%21%20%28%28src%20port%201024..65535%29%20and%20%28%28dst%20port%2080%29%20or%20%28dst%20port%20443%29%29%29%0Adrop%20proto%20icmp%20and%20%21%20%28icmptype%203%20and%20icmpcode%204%29
+::set {mitigation_template.182.geoip_flist.allow} 0
+::set {mitigation_template.182.http_header_regex_and} 0
+::set {mitigation_template.182.http_header_regex_pass} 0
+::set {mitigation_template.182.http_header_regex_uri.locked} 0
+::set {mitigation_template.182.http_malformed.botnet_level} 0
+::set {mitigation_template.182.http_malformed.locked} 0
+::set {mitigation_template.182.ip_version} 4
+::set {mitigation_template.182.name} Gaurav
+::set {mitigation_template.182.payload_regex_pass} 0
+::set {mitigation_template.182.payload_regex_tcp_ports.locked} 0
+::set {mitigation_template.182.payload_regex_udp_ports.locked} 0
+::set {mitigation_template.182.payload_regex_uri.locked} 0
+::set {mitigation_template.182.sip_malformed.locked} 0
+::set {mitigation_template.182.ssl.clients_can_alert} 1
+::set {mitigation_template.182.ssl.max_cipher_suites} 100
+::set {mitigation_template.182.ssl.max_early_close} 25
+::set {mitigation_template.182.ssl.max_extensions} 10
+::set {mitigation_template.182.ssl.max_pend_secs} 30
+::set {mitigation_template.182.ssl.min_pend_secs} 15
+::set {mitigation_template.182.url_filter_list_and} 0
+
+::set {mitigation_template.indices} {1 2 3 4 5 6 7 8 9 176 182}
+
+::set {model.address_space} {172.1.0.0/16 173.0.0.0/24 174.0.0.0/23 175.0.0.0/27}
+
+::set {model.autoclass_time} 60
+
+::set {model.bgp_as} {1 65001 65002}
+
+::set {model.name} {{Testbed Illogistics, Inc.}}
+
+::set {model.start_delay} 60
+
+::set {notification.137.name} default
+::set {notification.137.smtp_addresses} archive@shaolinista.tb.arbor.net
+::set {notification.137.snmp_manager_ips} 10.8.2.190
+
+::set {notification.default} 137
+
+::set {notification.indices} 137
+
+::set {notification.smtp_server} 10.1.0.88
+
+::set {portal.notification} 1
+
+::set {portal.support_email} test@mssuser.com
+
+::set {preferences.login_timeout} 3600
+
+::set {preferences.status_update} 60
+
+::set {preferences.support_email} support@arbornetworks.com
+
+::set {profiled.baseline_mode} evaluation
+::set {profiled.baseline_mode.evaluation_time} 180
+
+::set {remote_services.anonymous_stats.enable} 1
+::set {remote_services.anonymous_stats.servers} anonstats-testlab.tb.arbor.net
+
+::set {restapi.177.account_group} 12
+::set {restapi.177.enable} 1
+::set {restapi.177.key} Quafina
+::set {restapi.177.name} {{API key}}
+
+::set {restapi.indices} 177
+
+::set {router.138.bgp_as} 60000
+::set {router.138.bgp_ip} 192.168.247.54
+::set {router.138.device} 121
+::set {router.138.flow_export_ip} 192.168.247.54
+::set {router.138.flow_sample_rate} 100
+::set {router.138.local_as} 60000
+::set {router.138.name} ar1.chi
+::set {router.138.snmp_community} public
+::set {router.138.snmp_ip} 192.168.247.54
+
+::set {router.139.bgp_as} 60000
+::set {router.139.bgp_ip} 192.168.252.68
+::set {router.139.device} 121
+::set {router.139.flow_export_ip} 192.168.252.68
+::set {router.139.flow_sample_rate} 100
+::set {router.139.local_as} 60000
+::set {router.139.name} cr1.lax
+::set {router.139.snmp_community} public
+::set {router.139.snmp_ip} 192.168.252.68
+
+::set {router.140.bgp_as} 60000
+::set {router.140.bgp_ip} 192.168.245.99
+::set {router.140.device} 121
+::set {router.140.flow_export_ip} 192.168.245.99
+::set {router.140.flow_sample_rate} 100
+::set {router.140.local_as} 60000
+::set {router.140.name} ar1.lax
+::set {router.140.snmp_community} public
+::set {router.140.snmp_ip} 192.168.245.99
+
+::set {router.141.bgp_as} 60000
+::set {router.141.bgp_ip} 192.168.250.62
+::set {router.141.device} 121
+::set {router.141.flow_export_ip} 192.168.250.62
+::set {router.141.flow_sample_rate} 100
+::set {router.141.local_as} 60000
+::set {router.141.name} br1.chi
+::set {router.141.snmp_community} public
+::set {router.141.snmp_ip} 192.168.250.62
+
+::set {router.142.bgp_as} 60000
+::set {router.142.bgp_ip} 192.168.246.31
+::set {router.142.device} 121
+::set {router.142.flow_export_ip} 192.168.246.31
+::set {router.142.flow_sample_rate} 100
+::set {router.142.local_as} 60000
+::set {router.142.name} br1.lax
+::set {router.142.snmp_community} public
+::set {router.142.snmp_ip} 192.168.246.31
+
+::set {router.143.bgp_as} 60000
+::set {router.143.bgp_ip} 192.168.252.120
+::set {router.143.device} 121
+::set {router.143.flow_export_ip} 192.168.252.120
+::set {router.143.flow_sample_rate} 100
+::set {router.143.local_as} 60000
+::set {router.143.name} ar1.nyc
+::set {router.143.snmp_community} public
+::set {router.143.snmp_ip} 192.168.252.120
+
+::set {router.144.bgp_as} 60000
+::set {router.144.bgp_ip} 192.168.253.122
+::set {router.144.device} 121
+::set {router.144.flow_export_ip} 192.168.253.122
+::set {router.144.flow_sample_rate} 100
+::set {router.144.local_as} 60000
+::set {router.144.name} br1.nyc
+::set {router.144.snmp_community} public
+::set {router.144.snmp_ip} 192.168.253.122
+
+::set {router.145.bgp_as} 60000
+::set {router.145.bgp_ip} 192.168.253.56
+::set {router.145.device} 121
+::set {router.145.flow_export_ip} 192.168.253.56
+::set {router.145.flow_sample_rate} 100
+::set {router.145.local_as} 60000
+::set {router.145.name} cr1.chi
+::set {router.145.snmp_community} public
+::set {router.145.snmp_ip} 192.168.253.56
+
+::set {router.146.bgp_as} 60000
+::set {router.146.bgp_ip} 192.168.251.19
+::set {router.146.device} 121
+::set {router.146.flow_export_ip} 192.168.251.19
+::set {router.146.flow_sample_rate} 100
+::set {router.146.local_as} 60000
+::set {router.146.name} cr1.nyc
+::set {router.146.snmp_community} public
+::set {router.146.snmp_ip} 192.168.251.19
+
+::set {router.indices} {138 139 140 141 142 143 144 145 146}
+
+::set {tms_port.123.action.mitigate} 1
+::set {tms_port.123.address} 172.19.30.41
+::set {tms_port.123.device} 122
+::set {tms_port.123.name} tmsx1.0
+::set {tms_port.123.nexthop} 172.19.40.164
+::set {tms_port.123.output} 124
+::set {tms_port.123.snmp_id} 309
+::set {tms_port.123.type} physical
+
+::set {tms_port.124.address} 172.19.40.41
+::set {tms_port.124.device} 122
+::set {tms_port.124.name} tmsx1.1
+::set {tms_port.124.snmp_id} 310
+::set {tms_port.124.type} physical
+
+::set {tms_port.125.device} 122
+::set {tms_port.125.name} tmsx1.2
+::set {tms_port.125.snmp_id} 311
+::set {tms_port.125.type} physical
+
+::set {tms_port.126.device} 122
+::set {tms_port.126.name} tmsx1.3
+::set {tms_port.126.snmp_id} 312
+::set {tms_port.126.type} physical
+
+::set {tms_port.127.device} 122
+::set {tms_port.127.name} tmsx1.4
+::set {tms_port.127.snmp_id} 313
+::set {tms_port.127.type} physical
+
+::set {tms_port.128.device} 122
+::set {tms_port.128.name} tmsx1.5
+::set {tms_port.128.snmp_id} 314
+::set {tms_port.128.type} physical
+
+::set {tms_port.129.device} 122
+::set {tms_port.129.name} tmsx1.6
+::set {tms_port.129.snmp_id} 315
+::set {tms_port.129.type} physical
+
+::set {tms_port.130.device} 122
+::set {tms_port.130.name} tmsx1.7
+::set {tms_port.130.snmp_id} 316
+::set {tms_port.130.type} physical
+
+::set {tms_port.indices} {123 124 125 126 127 128 129 130}
